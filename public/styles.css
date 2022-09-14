@@ -1,0 +1,49 @@
+.card {
+  background-color: #eee;
+  border: 1px solid black;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  width: 350px;
+}
+
+.card:not(:first-of-type) {
+  margin-left: 25px;
+}
+
+.card-heading {
+  color: darkblue;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link {
+  background-color: transparent;
+  border: none;
+  color: darkblue;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-decoration-thickness: 2px;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.link:focus {
+  box-shadow: 0 0 0 2px blue;
+  color: blue;
+  outline: 0;
+  text-decoration: none;
+}
+
+.note {
+  margin-top: 25px;
+}
